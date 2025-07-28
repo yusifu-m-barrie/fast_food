@@ -10,6 +10,7 @@ import useAuthStore from "@/store/auth.store";
 export default function Index() {
   const { user } = useAuthStore();
 
+
   return (
       <SafeAreaView className="flex-1 bg-white">
           <FlatList
@@ -53,7 +54,7 @@ export default function Index() {
                       <View className="flex-start">
                           <Text className="small-bold text-primary">DELIVER TO</Text>
                           <TouchableOpacity className="flex-center flex-row gap-x-1 mt-0.5">
-                              <Text className="paragraph-bold text-dark-100">Croatia</Text>
+                              <Text className="paragraph-bold text-dark-100">Sierra Leone</Text>
                               <Image source={images.arrowDown} className="size-3" resizeMode="contain" />
                           </TouchableOpacity>
                       </View>
